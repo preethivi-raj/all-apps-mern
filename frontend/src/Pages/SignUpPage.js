@@ -25,6 +25,10 @@ const SignUpPage = () => {
         }
     }
   return (
+    <div
+      className="min-h-screen bg-gradient-to-br
+    from-gray-900 via-green-900 to-emerald-900 flex items-center justify-center relative overflow-hidden"
+    >
     <div className='max-w-sm w-full bg-gray-800 bg-opacity-50 backdrop-filter backdrop-blur-xl rounded-2xl shadow-xl overflow-hidden'>
         <div className='p-8'>
             <h2 className='text-3xl font-bold mb-6 text-center bg-gradient-to-r from-gray-400 to-emerald-500 text-transparent bg-clip-text'>
@@ -79,6 +83,7 @@ const SignUpPage = () => {
                 </Link>
             </p>
         </div>
+    </div>
     </div>
   )
 }
